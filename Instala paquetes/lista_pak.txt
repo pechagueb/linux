@@ -1,0 +1,26 @@
+# Agrega aquí más paquetes, uno por línea. Las líneas que empiezan con # serán ignoradas.
+
+preload
+git
+curl
+wget
+nala
+fastfetch
+mpv
+gcc
+make
+python3
+python3-pip
+cargo
+p7zip
+ntfs-3g
+btop
+ffmpeg
+ttf-mscorefonts-installer
+fonts-firacode
+fonts-jetbrains-mono
+fonts-croscore
+fonts-crosextra-carlito
+fonts-crosextra-caladea
+fonts-noto
+fonts-noto-cjk -y
