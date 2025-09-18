@@ -88,7 +88,7 @@ if command -v notify-send >/dev/null 2>&1; then
 fi
 '
 
-# Muestra en terminal
+# Muestra en terminal (por defecto)
 echo
 echo "Horoscopo PISCIS $(date)"
 echo 
