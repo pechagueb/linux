@@ -34,9 +34,12 @@ OBTENER API KEY
 USO
 ---
 Ejecuta el script:
-    ./horoscopo_piscis_ninjas.sh
+    ./horoscopo.sh
 
-Esto generará un archivo con el horóscopo del día en:
+Mostrará el horóscopo por terminal
+
+Opcionalmente:
+Generará un archivo con el horóscopo del día en:
     ~/horoscopos/pisces_ninjas_YYYY-MM-DD.txt
 
 El archivo contiene:
@@ -44,8 +47,7 @@ El archivo contiene:
 - Horóscopo en inglés
 - Horóscopo traducido al español (si tienes translate-shell instalado)
 
-NOTIFICACIONES DE ESCRITORIO
-----------------------------
+Mostrará el horóscopo por terminal
 - En Linux: requiere "notify-send"
 
 AUTOMATIZACIÓN CON CRON
