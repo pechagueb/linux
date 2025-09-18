@@ -18,7 +18,8 @@ alias trim='sudo fstrim / -v'
 alias bashed='sudo nano ~/.bashrc'
 alias flush='sudo resolvectl flush-caches'
 alias bios='sudo systemctl reboot --firmware-setup'
-alias gpu='nvtop'
+# Para NVidia:
+# alias gpu='nvtop'
 
 echo
 ff
