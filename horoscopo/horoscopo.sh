@@ -19,7 +19,7 @@
 
 set -euo pipefail #aborta en caso de error
 
-API_KEY=" *****tu_API***** "   # <--- Cambia esto por tu clave real de API Ninjas (https://api-ninjas.com/)
+API_KEY="TU_CLAVE_API"   # <--- Cambia esto por tu clave real de API Ninjas (https://api-ninjas.com/)
 SIGN="pisces" # Indicar signo zodiacal en inglés (ejemplo: pisces)
 ENDPOINT="https://api.api-ninjas.com/v1/horoscope"
 OUT_DIR="${HOME}/horoscopos"
@@ -85,9 +85,6 @@ sed -n '1,200p' "${OUT_FILE}"
 : '
 if command -v notify-send >/dev/null 2>&1; then
   notify-send "Horóscopo Piscis" "$(echo "${horoscope_es}" | cut -c1-200)" -i face-smile || true
-elif command -v osascript >/dev/null 2>&1; then
-  short=$(echo "${horoscope_es}" | sed 's/"/\\"/g' | cut -c1-200)
-  osascript -e "display notification \"${short}\" with title \"Horóscopo Piscis\"" >/dev/null 2>&1 || true
 fi
 '
 
