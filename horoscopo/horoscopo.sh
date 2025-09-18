@@ -19,7 +19,7 @@
 
 set -euo pipefail #aborta en caso de error
 
-API_KEY="TU_CLAVE_API"   # <--- Cambia esto por tu clave real de API Ninjas (https://api-ninjas.com/)
+API_KEY="AQUI_TU_API_KEY"   # <--- Cambia esto por tu clave real de API Ninjas (https://api-ninjas.com/)
 SIGN="pisces" # Indicar signo zodiacal en inglés (ejemplo: pisces)
 ENDPOINT="https://api.api-ninjas.com/v1/horoscope"
 OUT_DIR="${HOME}/horoscopos"
