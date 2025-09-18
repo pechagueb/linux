@@ -3,8 +3,10 @@
 # WEB: https://pechagueb.odoo.com/
 # Nivel: medio/avanzado
 
-Este script en Bash consulta el horóscopo diario de Piscis usando la API de API Ninjas,
-lo guarda en un archivo de texto y puede mostrarte una notificación en tu escritorio.
+Este script en Bash consulta el horóscopo diario de Piscis usando la API de API Ninjas
+y lo muestra por terminal.
+
+Opcionalmente lo puede guardar en un archivo de texto y puede mostrarte una notificación en tu escritorio.
 Además, incluye la opción de traducir el texto automáticamente al español.
 
 REQUISITOS
