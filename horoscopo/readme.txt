@@ -36,7 +36,7 @@ USO
 Ejecuta el script:
     ./horoscopo.sh
 
-Mostrará el horóscopo por terminal
+Mostrará el horóscopo por terminal (por defecto)
 
 Opcionalmente:
 Generará un archivo con el horóscopo del día en:
@@ -47,7 +47,7 @@ El archivo contiene:
 - Horóscopo en inglés
 - Horóscopo traducido al español (si tienes translate-shell instalado)
 
-Mostrará el horóscopo por terminal
+Mostrará el horóscopo en una notificación de escritorio:
 - En Linux: requiere "notify-send"
 
 AUTOMATIZACIÓN CON CRON
