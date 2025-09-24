@@ -23,6 +23,9 @@ En Debian/Ubuntu:
     sudo apt update
     sudo apt install curl jq translate-shell
 
+*En caso de inconvenientes al instalar "translate-shell" consultar en:
+https://esgeeks.com/translate-shell-traductor-terminal-linux/
+
 OBTENER API KEY
 ---------------
 1. Regístrate gratis en https://api-ninjas.com/
