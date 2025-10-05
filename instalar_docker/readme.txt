@@ -1,6 +1,6 @@
 ¡Hola, navegante de la terminal! 🐧 ¿Cansado de instalar Docker a mano y que se te olvide un paso? ¡Este script es tu nuevo mejor amigo! 🤖
 
-**docker-debian-installer.sh** viene al rescate 🦸‍♂️. Con solo un comando, seguirá **AUTOMÁGICAMENTE** la guía oficial de Docker para preparar tu Debian.
+**instalar_docker.sh** viene al rescate 🦸‍♂️. Con solo un comando, seguirá **AUTOMÁGICAMENTE** la guía oficial de Docker para preparar tu Debian.
 
 ¿Qué hace esta joya? ✨:
 - Limpia restos de instalaciones viejas 🧹
