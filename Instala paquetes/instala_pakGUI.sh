@@ -19,6 +19,16 @@ if [ ! -f "$LISTA_APPS" ]; then
     echo "nala" >> "$LISTA_APPS"
 fi
 
+# Función para contar paquetes válidos
+contar_paquetes() {
+    local count=0
+    while IFS= read -r app; do
+        [[ -z "$app" || "$app" =~ ^# ]] && continue
+        ((count++))
+    done < "$LISTA_APPS"
+    echo "$count"
+}
+
 # Función para mostrar la interfaz de selección
 seleccionar_aplicaciones() {
     # Leer paquetes del archivo, ignorando comentarios y líneas vacías
@@ -148,17 +158,93 @@ instalar_paquetes() {
     fi
 }
 
+# Función para instalar todos los paquetes
+instalar_todos() {
+    local total_paquetes=$(contar_paquetes)
+
+    if [ "$total_paquetes" -eq 0 ]; then
+        zenity --warning \
+            --text="No hay paquetes válidos en la lista para instalar.\n\nRevisa el archivo: $LISTA_APPS" \
+            --width=400
+        return 1
+    fi
+
+    # Obtener lista de paquetes para mostrar
+    local paquetes=($(obtener_paquetes))
+    local resumen="Se instalarán TODOS los paquetes de la lista:\n\n"
+    for pkg in "${paquetes[@]}"; do
+        resumen+="• $pkg\n"
+    done
+    resumen+="\nTotal: $total_paquetes paquetes"
+
+    zenity --question \
+        --title="Instalar TODOS los paquetes" \
+        --text="$resumen\n\n¿Continuar con la instalación completa?" \
+        --width=500 \
+        --ok-label="Instalar Todo" \
+        --cancel-label="Cancelar"
+
+    if [ $? -ne 0 ]; then
+        zenity --info --text="Instalación cancelada." --width=300
+        return 1
+    fi
+
+    # Actualizar repositorios e instalar todos los paquetes
+    (
+        echo "10" ; sleep 1
+        echo "# Actualizando lista de paquetes..." ; sleep 1
+        if ! sudo apt update 2>/dev/null; then
+            zenity --error --text="Error al actualizar los repositorios." --width=400
+            exit 1
+        fi
+        echo "30" ; sleep 1
+
+        # Instalar todos los paquetes en un solo comando (más eficiente)
+        local paquetes_para_instalar=($(obtener_paquetes))
+
+        echo "50"
+        echo "# Instalando todos los paquetes..."
+
+        if ! sudo apt install -y "${paquetes_para_instalar[@]}" 2>/dev/null; then
+            zenity --error --text="Error durante la instalación de paquetes." --width=400
+            exit 1
+        fi
+
+        echo "100"
+        echo "# Instalación completada"
+        sleep 1
+
+    ) | zenity --progress \
+        --title="Instalando TODOS los paquetes" \
+        --text="Preparando instalación completa..." \
+        --percentage=0 \
+        --auto-close \
+        --width=400
+
+    if [ $? -eq 0 ]; then
+        zenity --info \
+            --text="¡Instalación completa finalizada exitosamente!\n\nSe instalaron $total_paquetes paquetes." \
+            --width=400
+    else
+        zenity --error \
+            --text="Ocurrió un error durante la instalación." \
+            --width=400
+    fi
+}
+
 # Función para mostrar el menú principal
 menu_principal() {
     while true; do
+        local total_paquetes=$(contar_paquetes)
         local opcion=$(zenity --list \
-            --title="Instalador de Paquetes" \
+            --title="Instalador de Paquetes ($total_paquetes paquetes en lista)" \
             --text="Selecciona una opción:" \
             --radiolist \
             --column="Seleccionar" \
             --column="Opción" \
             --column="Descripción" \
-            TRUE "Seleccionar" "Elegir aplicaciones para instalar" \
+            TRUE "Seleccionar" "Elegir aplicaciones específicas para instalar" \
+            FALSE "Instalar Todo" "Instalar TODOS los paquetes de la lista" \
             FALSE "Editar lista" "Modificar lista de paquetes disponibles" \
             FALSE "Salir" "Cerrar el programa" \
             --width=600 \
@@ -168,6 +254,9 @@ menu_principal() {
             "Seleccionar")
                 local seleccion=$(seleccionar_aplicaciones)
                 instalar_paquetes "$seleccion"
+                ;;
+            "Instalar Todo")
+                instalar_todos
                 ;;
             "Editar lista")
                 editar_lista
