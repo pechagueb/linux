@@ -1,5 +1,5 @@
 # Agregar a bashrc
-# Ej.: echo 'source ~/agregar-a-bashrc.pat' >> ~/.bashrc
+# Ej.: cat ~/agregar-a-bashrc.pat >> ~/.bashrc
 #
 #
  
