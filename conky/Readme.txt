@@ -12,7 +12,9 @@ personalizado ("Sabila"). Además, detalla el consumo de recursos por aplicació
 
 🛠️ Instalación y Uso:
 
-Para utilizar esta configuración, simplemente guarda el archivo `conky.conf` en la carpeta `~/.config/conky/`. Si el directorio no existe, puedes crearlo manualmente. Una vez ubicado el archivo, reinicia Conky o inícialo desde terminal con el comando:
+Para utilizar esta configuración, simplemente guarda el archivo `conky.conf` en la carpeta `~/.config/conky/`. 
+Si el directorio no existe, puedes crearlo manualmente. Una vez ubicado el archivo, reinicia Conky o inícialo 
+desde terminal con el comando:
 
 Ejecutar:
 conky -c ~/.config/conky/conky.conf
