@@ -13,18 +13,37 @@ alias update='sudo apt update && \
 	      sudo apt autoclean && \
 	      sudo apt autoremove -y'
 
+alias tg='topgrade -y'
 alias ff='fastfetch'
 alias trim='sudo fstrim / -v'
 alias bashed='sudo nano ~/.bashrc'
-alias flush='sudo resolvectl flush-caches'
-alias bios='sudo systemctl reboot --firmware-setup'
-# Para NVidia:
-# alias gpu='nvtop'
+alias off='echodbus-send --session --print-reply --dest=org.kde.kglobalaccel  /component/org_kde_powerdevil org.kde.kglobalaccel.Component.invokeShortcut string:"Turn Off Screen"'
 
-echo
+#Yazi
+function yz() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")"
+	yazi "$@" --cwd-file="$tmp"
+	if cwd="$(cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		cd -- "$cwd"
+	fi
+	rm -f -- "$tmp"
+}
+
+# theFuck
+eval $(thefuck --alias)
+
+# HomeBrew
+# echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> ~/.bashrc
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+# Para compatibilidad con flutter
+export CHROME_EXECUTABLE=/var/lib/flatpak/exports/bin/com.google.Chrome
+
+#Autocompletado predictivo estilo Zsh
+source ~/ble.sh/out/ble.sh
+
 ff
 echo
 ~/quotes.sh ~/quotes.txt
 echo
 ~/oncehoy.sh
-echo
