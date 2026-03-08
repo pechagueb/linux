@@ -1,3 +1,3 @@
 #!/bin/bash
 
-rclone mount gdrive:/ /home/patricioeb/GoogleDrive --vfs-cache-mode full &
+rclone mount GDrive:/ ~/GoogleDrive --vfs-cache-mode full &
