@@ -8,7 +8,7 @@
 
 NOTA:
 Crear y Configurar Directorio de Caché 
-*(para ejecutar sólo una vez en caso de tener problemas de sicronización)
+*(para ejecutar sólo una vez en caso de tener problemas de sincronización)
 
 # Crear directorio de caché manualmente
 mkdir -p /home/patricioeb/.cache/rclone/vfs
