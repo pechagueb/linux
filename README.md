@@ -7,6 +7,6 @@ Incluye básicamente scripts (Python, bash, etc...). Cada archivo cuenta con com
 Perfecto para administradores, entusiastas o cualquier persona que quiera simplificar su flujo de trabajo. Sugerencias y aportes son bienvenidos: ¡haz un fork, mejora un script y comparte tu aporte!
 
 <div align="center">
-<img width="1200" alt="Linux" src="linux.jpg" />
+<img width="1200" alt="Linux" src="linuxIA.jpg" />
 </div>
 
