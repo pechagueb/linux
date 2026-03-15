@@ -1,0 +1,38 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "modules": [
+    "title",
+    "separator",
+    "os",
+    "host",
+    "kernel",
+    "uptime",
+    "packages",
+    "shell",
+    "display",
+    "de",
+    "wm",
+    "terminal",
+    "cpu",
+    "gpu",
+    "memory",
+    "swap",
+    "disk",
+    "localip", // IP privada (LAN)
+
+    // --- IP PÚBLICA ---
+    {
+        "type": "command",
+        "key": "Public IP",
+        "keyColor": "blue",
+        "text": "curl -s ifconfig.me"
+    },
+    // ----------------------------------------------
+
+    "battery",
+    "poweradapter",
+    "locale",
+    "break",
+    "colors"
+  ]
+}
