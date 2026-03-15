@@ -11,6 +11,6 @@ Este enfoque simplifica la configuración de entornos, ahorra tiempo y asegura q
 Este tipo de automatización es especialmente útil al migrar a un nuevo equipo, configurar servidores o mantener entornos consistentes en proyectos colaborativos.
 
 *******
-👾 GUI 🤓
+👾 GUI (beta) 🤓
 
 Continuando con la exploración del potencial de 'bash', he agregado una versión del script anterior con una interfaz gráfica (Zenity) facilitando la experiencia del usuario.
