@@ -1,7 +1,7 @@
 # linux
 
 <div align="center">
-<img width="1200" height="475" alt="Linux" src="linux.jpg" />
+<img width="1200" alt="Linux" src="linux.jpg" />
 </div>
 
 Este repositorio recopila una colección de scripts, atajos y comandos diseñados para facilitar tareas comunes en Linux. La idea es ahorrar tiempo en configuraciones repetitivas, diagnósticos del sistema y automatización de procesos.
