@@ -5,7 +5,7 @@ Este enfoque simplifica la configuración de entornos, ahorra tiempo y asegura q
 ¿Cómo funciona?
 
 ☑️ Ejecutar el script.
-☑️ Edita la lista (⚠️)
+☑️ Edita la lista (⚠️) *Haz una copia del .txt para futuras instalaciones.
 ☑️ El script instala cada elemento de la lista sin intervención manual.
 
 Este tipo de automatización es especialmente útil al migrar a un nuevo equipo, configurar servidores o mantener entornos consistentes en proyectos colaborativos.
