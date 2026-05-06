@@ -11,3 +11,21 @@
 ¡Ejecuta `./instalar_docker.sh` y prepárate para la magia! 🎩🐇 Tu futuro con contenedores está a un script de distancia. ¡Let's go! 🚀
 
 **PD:** Como todo gran poder, requiere responsabilidad... y `sudo` 😉.
+
+**docker_toggler**
+Uso: ./docker_toggler.sh [opción]
+
+Opciones:
+  disable  - Desactivar Docker completamente (no inicia al arrancar)
+  enable   - Activar Docker (inicia automáticamente al arrancar)
+  stop     - Detener Docker ahora mismo
+  start    - Iniciar Docker ahora mismo
+  status   - Ver estado actual de Docker
+  remove   - Desinstalar Docker y containerd por completo
+  help     - Mostrar esta ayuda
+
+Ejemplos:
+  ./docker_toggler.sh disable  # Apagado rápido
+  ./docker_toggler.sh start    # Usar Docker temporalmente
+  ./docker_toggler.sh enable   # Revertir cambios
+
