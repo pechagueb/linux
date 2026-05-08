@@ -1,5 +1,11 @@
 #!/bin/bash
 
+#Nombre: setup_docker-deb.sh
+#Autor: Patricio Echagüe Ballesteros (YAPA Design)
+#WEB: 
+#Descripción: Activa y desactiva Docker y servicios relacionados
+#Asistido por Deep Seek
+
 # Colores para output más legible
 RED='\033[0;31m'
 GREEN='\033[0;32m'
