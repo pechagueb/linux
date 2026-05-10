@@ -10,7 +10,7 @@ Este enfoque simplifica la configuración de entornos, ahorra tiempo y asegura q
 
 Este tipo de automatización es especialmente útil al migrar a un nuevo equipo, configurar servidores o mantener entornos consistentes en proyectos colaborativos.
 
-Disponible versión 2.0:
+✴️ Disponible versión 2.0 ✴️
 - Multidistro (detecta manejador de paquetería)
 - Detección sistema
 - Simula instalación (para verificación)
@@ -24,7 +24,7 @@ Disponible versión 2.0:
 # 2. Opción 8 - Simular antes de instalar
 # 3. Opción 3 - Instalar si todo está bien
 
-(En breve estará disponible traducción al inglés)
+🇪🇺 (En breve estarán disponibles traducciones)
 
 *******
 
