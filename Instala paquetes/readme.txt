@@ -1,3 +1,5 @@
+Como profesional que navega frecuentemente entre diferentes distribuciones Linux (Debian, Arch, Fedora, openSUSE), identifiqué una necesidad recurrente: mantener un flujo de trabajo consistente para la instalación de paquetes sin recordar comandos específicos de cada gestor.
+
 Preparé un script en Bash que automatiza la instalación de paquetes a partir de una lista guardada en un archivo de texto. 
 
 Este enfoque simplifica la configuración de entornos, ahorra tiempo y asegura que el proceso sea repetible y confiable.
