@@ -10,7 +10,26 @@ Este enfoque simplifica la configuración de entornos, ahorra tiempo y asegura q
 
 Este tipo de automatización es especialmente útil al migrar a un nuevo equipo, configurar servidores o mantener entornos consistentes en proyectos colaborativos.
 
+Disponible versión 2.0:
+- Multidistro (detecta manejador de paquetería)
+- Detección sistema
+- Simula instalación (para verificación)
+- Limpia caché o obsoletos
+
+# Ejecutar normalmente
+./instala_pak.sh
+
+# Flujo recomendado:
+# 1. Opción 1 - Detectar sistema
+# 2. Opción 8 - Simular antes de instalar
+# 3. Opción 3 - Instalar si todo está bien
+
+(En breve estará disponible traducción al inglés)
+
 *******
+
 👾 GUI (beta) 🤓
+
+** En desarrollo **
 
 Continuando con la exploración del potencial de 'bash', he agregado una versión del script anterior con una interfaz gráfica (Zenity) facilitando la experiencia del usuario.
