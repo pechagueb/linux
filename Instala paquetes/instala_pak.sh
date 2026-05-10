@@ -3,7 +3,7 @@
 # ============================================
 # Multi-Pak Installer v2.0 - Versión Monospace
 # Autor: Patricio Echagüe Ballesteros (YAPA Design)
-# WEB: https://pechagueb.odoo.com/
+# WEB: ...en construccion (@yapadesign - Facebook)
 # Descripción: Instalador universal - Compatible con terminales monospace
 # ============================================
 
