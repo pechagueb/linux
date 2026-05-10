@@ -30,6 +30,7 @@ Este tipo de automatización es especialmente útil al migrar a un nuevo equipo,
 
 *******
 
+✴️ NOTA: instala_pakGUI.sh
 👾 GUI (beta) 🤓
 
 👷🏽 En desarrollo 🔧
