@@ -14,7 +14,7 @@ Este tipo de automatización es especialmente útil al migrar a un nuevo equipo,
 
 ✴️ Disponible versión 2.0 ✴️
 - Multidistro (detecta manejador de paquetería)
-- Detección sistema
+- Actualización sistema
 - Simula instalación (para verificación)
 - Limpia caché o obsoletos
 
