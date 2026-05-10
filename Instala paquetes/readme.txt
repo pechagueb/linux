@@ -32,6 +32,6 @@ Este tipo de automatización es especialmente útil al migrar a un nuevo equipo,
 
 👾 GUI (beta) 🤓
 
-** En desarrollo **
+👷🏽 En desarrollo 🔧
 
 Continuando con la exploración del potencial de 'bash', he agregado una versión del script anterior con una interfaz gráfica (Zenity) facilitando la experiencia del usuario.
