@@ -19,7 +19,7 @@ Este tipo de automatización es especialmente útil al migrar a un nuevo equipo,
 - Limpia caché o obsoletos
 
 # Ejecutar normalmente
-./instala_pak.sh
+./instala_pak.sh (dar permisos de ejecutable)
 
 # Flujo recomendado:
 # 1. Opción 1 - Detectar sistema
