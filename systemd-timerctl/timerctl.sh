@@ -1,9 +1,13 @@
 #!/bin/bash
 
-# =============================================================================
-# timerctl.sh - Gestor de timers systemd para usuario
+# ============================================
+# timerctl.sh  
+# Autor: Patricio Echagüe Ballesteros (YAPA Design)
+# Asistido por Deep Seek AI
+# WEB: ...en construccion (@yapadesign - Facebook)
+# Descripción: Gestor de timers systemd para usuario
 # Uso: timerctl <nombre> [enable|disable|status|restart|logs|path]
-# =============================================================================
+# ============================================
 
 # Colores para output (opcional, mejora legibilidad)
 RED='\033[0;31m'
