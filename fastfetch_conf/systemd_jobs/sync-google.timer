@@ -1,0 +1,10 @@
+[Unit]
+Description=Timer para sincronización diaria a las 12:00
+
+[Timer]
+OnCalendar=*-*-* 12:00:00
+Persistent=true
+MaxTriggers=1
+
+[Install]
+WantedBy=timers.target

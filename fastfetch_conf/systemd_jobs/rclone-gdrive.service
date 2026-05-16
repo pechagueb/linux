@@ -1,0 +1,14 @@
+[Unit]
+Description=Montar Google Drive con rclone
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=forking
+ExecStart=/usr/bin/rclone mount GDrive: /home/patricioeb/GoogleDrive --vfs-cache-mode full --daemon
+ExecStop=/usr/bin/fusermount -uz /home/patricioeb/GoogleDrive
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=default.target
