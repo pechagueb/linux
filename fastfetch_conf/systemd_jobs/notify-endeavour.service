@@ -1,6 +1,0 @@
-[Unit]
-Description=Envía notificación para actualizar Endeavour
-
-[Service]
-Type=oneshot
-ExecStart=/home/patricioeb/.local/bin/notify-endeavour.sh

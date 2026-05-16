@@ -1,8 +1,0 @@
-[Unit]
-Description=Timer para notificación Endeavour
-
-[Timer]
-OnCalendar=Mon *-*-* 13:00:00
-
-[Install]
-WantedBy=timers.target
