@@ -1,0 +1,8 @@
+[Unit]
+Description=Timer para notificación horaria
+
+[Timer]
+OnCalendar=*-*-* *:00:00
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,6 @@
+[Unit]
+Description=Envía notificación con la hora actual
+
+[Service]
+Type=oneshot
+ExecStart=/home/patricioeb/.local/bin/notify-hour.sh
