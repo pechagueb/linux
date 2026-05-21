@@ -2,4 +2,4 @@ Descripción: Muestra una frase extraída al azar de un fichero de texto, se inc
 
 Nombre: quotes.sh
 Autor: Patricio Echagüe Ballesteros (YAPA Design)
-WEB: https://pechagueb.odoo.com/
+WEB: en construcción (@yapadesign - Facebook)
