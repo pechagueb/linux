@@ -21,8 +21,9 @@ El duelo es para dos jugadores en el mismo teclado:
 
 ---------
 
+Presentación Youtube:
+️↗️ https://youtu.be/hYqNazxBTTs
+
 Ejemplo jugable:
-
 ↗️ https://ponggame.io/
-
 
