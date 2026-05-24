@@ -7,7 +7,7 @@ Para dar vida a este juego, he utilizado Pygame, una librería de Python diseña
 
   ☑️  Gestionar gráficos y sonidos de forma sencilla.
 
-  ☑️ Controlar los FPS (frames por segundo) para que el juego corra fluido.
+  ☑️  Controlar los FPS (frames por segundo) para que el juego corra fluido.
 
   ☑️  Manejar la física básica de rebotes y movimiento de objetos.
 
