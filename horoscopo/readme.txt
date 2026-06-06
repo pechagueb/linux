@@ -1,6 +1,6 @@
 # Nombre: horoscopo.sh
 # Autor: Patricio Echagüe Ballesteros (YAPA Design)
-# WEB: https://pechagueb.odoo.com/
+# WEB: ...en contrucción (@yapadesign - Facebook)
 # Nivel: medio/avanzado
 
 Este script en Bash consulta el horóscopo diario de Piscis usando la API de API Ninjas
