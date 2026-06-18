@@ -1,1 +1,0 @@
-# Bibliografía relacionada a Linux
