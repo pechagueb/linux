@@ -5,13 +5,13 @@ Bash script de limpieza de sistema inspirado en la aplicación Stacer con alguno
 ## ¿Qué hace?
 
 1. Package Caches (Pacman y AUR)
-    -Limpieza del caché de Yay (AUR)
-2. Crash Reports
-3. Application Logs
-4. Application Caches
-5. Trash (Papelera)
-6. Limpiezas adicionales:
-    -Archivos temporales del sistema
-    -Pacman orphan packages
-    -Docker (si está instalado)
-    -Flatpak unused
+-Limpieza del caché de Yay (AUR)
+3. Crash Reports
+4. Application Logs
+5. Application Caches
+6. Trash (Papelera)
+7. Limpiezas adicionales:
+-Archivos temporales del sistema
+-Pacman orphan packages
+-Docker (si está instalado)
+-Flatpak unused
