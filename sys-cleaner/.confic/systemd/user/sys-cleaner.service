@@ -1,0 +1,13 @@
+[Unit]
+Description=Script semanal de limpieza de sistema (estilo Stacer)
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/patricioeb/.local/bin/syscleaner.sh
+Nice=19
+IOSchedulingClass=best-effort
+IOSchedulingPriority=7
+
+[Install]
+WantedBy=multi-user.target
