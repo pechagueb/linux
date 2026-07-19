@@ -17,7 +17,7 @@ El duelo es para dos jugadores en el mismo teclado:
 - ☑️ Jugador Izquierdo: Usa las teclas W (arriba) y S (abajo).
 - ☑️ Jugador Derecho: Usa las Flechas de Dirección (arriba y abajo).
 
----------
+---
 
 ↗️ [Presentación Youtube](https://youtu.be/hYqNazxBTTs)
 
