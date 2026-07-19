@@ -23,7 +23,7 @@ Una herramienta simple pero potente para gestionar timers de systemd a nivel de 
 - logs [n]       - Muestra últimos n logs (por defecto 20)  
 - path           - Muestra rutas de los archivos .service y .timer
 
-#### __Ejemplos__:
+#### *Ejemplos*:
 - timerctl notify-hour              # Ver estado
 - timerctl notify-hour enable       # Activar
 - timerctl sync-google restart      # Reiniciar tras modificar
