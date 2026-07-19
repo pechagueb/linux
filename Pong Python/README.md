@@ -25,4 +25,6 @@ El duelo es para dos jugadores en el mismo teclado:
 
 ↗️ [📔 Learning Python (PDF)](./Learning_Python.pdf)
 
+---
+
 ![pong](./pong.jpg)
