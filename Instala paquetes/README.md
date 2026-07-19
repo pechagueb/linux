@@ -32,7 +32,7 @@ Este tipo de automatización es especialmente útil al migrar a un nuevo equipo,
 
 > Continuando con la exploración del potencial de 'bash', he agregado una versión del script anterior con una interfaz gráfica (Zenity) facilitando la experiencia del usuario.
 
--✴️ NOTA: instala_pakGUI.sh
+- ✴️ NOTA: instala_pakGUI.sh
 - 👾 GUI (beta) 🤓
 - 👷🏽 En desarrollo 🔧
 
