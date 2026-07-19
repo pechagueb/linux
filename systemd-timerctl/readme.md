@@ -11,3 +11,10 @@ Una herramienta simple pero potente para gestionar timers de systemd a nivel de 
 - **Ver logs** sin recordar comandos de journalctl
 - **Consultar estado** de forma rápida
 - **Localizar archivos** de servicio y timer
+
+### Ejemplos:
+
+  - timerctl notify-hour
+  - timerctl notify-hour enable       # Activar"
+  - timerctl sync-google restart      # Reiniciar tras modificar"
+  - timerctl notify-hour logs 10      # Últimas 10 líneas"
