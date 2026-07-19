@@ -14,7 +14,7 @@ Este enfoque simplifica la configuración de entornos, ahorra tiempo y asegura q
 
 Este tipo de automatización es especialmente útil al migrar a un nuevo equipo, configurar servidores o mantener entornos consistentes en proyectos colaborativos.
 
-✴️ Disponible versión 2.0 ✴️
+#### ✴️ Disponible versión 2.0 ✴️
 - Multidistro (detecta manejador de paquetería)
 - Actualización sistema
 - Simula instalación (para verificación)
