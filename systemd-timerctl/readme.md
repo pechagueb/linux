@@ -12,9 +12,19 @@ Una herramienta simple pero potente para gestionar timers de systemd a nivel de 
 - **Consultar estado** de forma rápida
 - **Localizar archivos** de servicio y timer
 
-### Ejemplos:
+### Uso: timerctl <nombre> [comando]
 
-  - timerctl notify-hour
-  - timerctl notify-hour enable       # Activar"
-  - timerctl sync-google restart      # Reiniciar tras modificar"
-  - timerctl notify-hour logs 10      # Últimas 10 líneas"
+#### Comandos disponibles:
+  - (sin comando)  - Muestra estado y próximas ejecuciones
+  - enable         - Activa el timer (enable --now)
+  - disable        - Desactiva el timer
+  - restart        - Reinicia timer (útil tras modificar archivos)
+  - status         - Muestra estado detallado
+  - logs [n]       - Muestra últimos n logs (por defecto 20)  
+  - path           - Muestra rutas de los archivos .service y .timer
+
+#### Ejemplos:
+  - timerctl notify-hour              # Ver estado
+  - timerctl notify-hour enable       # Activar
+  - timerctl sync-google restart      # Reiniciar tras modificar
+  - timerctl notify-hour logs 10      # Últimas 10 líneas
