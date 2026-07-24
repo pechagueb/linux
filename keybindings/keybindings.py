@@ -4,7 +4,7 @@
 # Script de Generación de Keybindings Cheat Sheet 
 # Autor: Patricio Echagüe Ballesteros
 # Genera un PDF con los atajos de teclado en tiempo real
-# y visuallización con okular.
+# y visualización con okular.
 # (basado en ChachyOS+Hyprland+Noctalia)
 # 
 # Nota: El script está pensado para ser ejecutado desde
