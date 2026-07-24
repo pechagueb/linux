@@ -36,3 +36,9 @@ Asegúrate de tener instaladas las siguientes herramientas en tu sistema (ejempl
 
 ```bash
 sudo pacman -S python weasyprint okular
+```
+
+Nota: Recuerda darle permisos de ejecución:
+```bash
+chmod +x ~/.local/bin/keybindings.py
+```
