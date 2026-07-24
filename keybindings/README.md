@@ -42,5 +42,9 @@ Nota: Recuerda darle permisos de ejecución:
 ```bash
 chmod +x ~/.local/bin/keybindings.py
 ```
+Ejecución:
+```bash
+python ~/.local/bin/keybindings.py
+```
 ![imagen cheatsheet](cheat.png)
 
