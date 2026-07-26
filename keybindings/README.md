@@ -2,7 +2,7 @@
 
 Un script automatizado en Python diseñado para entornos de **Hyprland** configurados con archivos **Lua**. En este caso en particularExtrae y traduce directamente tus atajos de teclado dinámicos a un documento PDF apaisado de diseño limpio, abriéndolo automáticamente en tu visor predeterminado (**Okular** en mi caso).
 
-El script está pensado para ser ejecutado desde un atajo del sistema por lo que las notificaciones de resultados y errores no se muestran bajo ese contexto. se recomienda descomentar línea 156 para ejecutar una prueba.
+El script está pensado para ser ejecutado desde un atajo del sistema por lo que las notificaciones de resultados y errores no se muestran bajo ese contexto. Se recomienda descomentar línea 156 para ejecutar una prueba.
 
 No está compilado porque me gusta mantener al alcance la posibilidad de mejorarlo.
 
