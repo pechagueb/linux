@@ -1,6 +1,7 @@
-# ⌨️ keybindings.py
+# ⌨️ keybindings.py 
+## Autogeneración de "cheat sheet" en tiempo real
 
-Un script automatizado en Python diseñado para entornos de **Hyprland** configurados con archivos **Lua**. En este caso en particularExtrae y traduce directamente tus atajos de teclado dinámicos a un documento PDF apaisado de diseño limpio, abriéndolo automáticamente en tu visor predeterminado (**Okular** en mi caso).
+Un script automatizado en Python diseñado para entornos de **Hyprland** configurados con archivos **Lua**. En este caso en particular extrae y traduce directamente tus atajos de teclado dinámicos a un documento PDF apaisado de diseño limpio, abriéndolo automáticamente en tu visor predeterminado (**Okular** en mi caso).
 
 El script está pensado para ser ejecutado desde un atajo del sistema por lo que las notificaciones de resultados y errores no se muestran bajo ese contexto. Se recomienda descomentar línea 156 para ejecutar una prueba.
 
