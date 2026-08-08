@@ -18,7 +18,7 @@ Este tipo de automatización es especialmente útil al migrar a un nuevo equipo,
 - Multidistro (detecta manejador de paquetería)
 - Actualización sistema
 - Simula instalación (para verificación)
-- Limpia caché o obsoletos
+- Limpia caché u obsoletos
 
 ### Ejecutar normalmente
 ./instala_pak.sh (dar permisos de ejecutable)
