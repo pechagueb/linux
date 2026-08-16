@@ -1,5 +1,8 @@
-Descripción: Muestra una frase extraída al azar de un fichero de texto, se incluye fichero de muestra...
-
-Nombre: quotes.sh
-Autor: Patricio Echagüe Ballesteros (YAPA Design)
-WEB: en construcción (@yapadesign - Facebook)
+#######################################################
+#   ____  _____ ____  
+#  |  _ \| ____| __ )  Autor: 
+#  | |_) |  _| |  _ \  Patricio Echagüe Ballesteros
+#  |  __/| |___| |_) | Descripción: quotes.sh
+#  |_|   |_____|____/  Muestra una frase extraída al azar de un fichero de texto
+#
+#######################################################
