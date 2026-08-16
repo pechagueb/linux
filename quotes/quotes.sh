@@ -1,9 +1,13 @@
-#!/bin/bash
+#######################################################
+#   ____  _____ ____  
+#  |  _ \| ____| __ )  Autor: 
+#  | |_) |  _| |  _ \  Patricio Echagüe Ballesteros
+#  |  __/| |___| |_) | Descripción:
+#  |_|   |_____|____/  Muestra una frase extraída al azar de un fichero de texto
+#
+#######################################################
 
-#Nombre: quotes.sh
-#Autor: Patricio Echagüe Ballesteros (YAPA Design)
-#WEB: https://pechagueb.odoo.com/
-#Descripción: Muestra una frase extraída al azar de un fichero de texto
+#!/bin/bash
 
 # Verifica que se haya proporcionado un archivo como argumento
 if [ "$#" -ne 1 ]; then
