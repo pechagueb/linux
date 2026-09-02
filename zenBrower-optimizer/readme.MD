@@ -11,7 +11,7 @@ Script interactivo en Bash diseñado para maximizar el rendimiento, la aceleraci
 * **Respaldos automáticos:** Genera una copia de seguridad segura con marca de tiempo antes de sobrescribir configuraciones previas.
 
 ### Inicio Rápido
-Concede permisos de ejecución y ejecuta el script directamente en tu terminal:
+Descarga, concede permisos de ejecución y ejecuta el script directamente en tu terminal:
 ```bash
 chmod +x zenBroswer-optimizer.sh
 ./zenBroswer-optimizer.sh
