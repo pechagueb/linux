@@ -8,7 +8,7 @@ Script interactivo en Bash diseñado para maximizar el rendimiento, la aceleraci
 * **Aceleración por hardware:** Habilita WebGPU, capas avanzadas de WebRender y decodificación de vídeo por GPU[cite: 2].
 * **Ajuste de CPU y hilos:** Adapta la asignación multiproceso según los hilos del procesador[cite: 2].
 * **Gestión de códecs y caché:** Activa la decodificación VA-API y optimiza las preferencias de memoria y disco[cite: 2].
-* **Respaldos automáticos:** Genera una copia de seguridad segura con marca de tiempo antes de sobrescribir configuraciones previas[cite: 2].
+* **Respaldos automáticos:** Genera una copia de seguridad segura con marca de tiempo antes de sobrescribir configuraciones previas.
 
 ### Inicio Rápido
 Concede permisos de ejecución y ejecuta el script directamente en tu terminal[cite: 2]:
