@@ -1,6 +1,6 @@
 # Zen Browser Linux Optimizer
 
-Script interactivo en Bash diseñado para maximizar el rendimiento, la aceleración por hardware y la gestión de recursos de **Zen Browser** en Linux mediante la creación de un archivo de configuración `user.js` optimizado[cite: 2].
+Script interactivo en Bash diseñado para maximizar el rendimiento, la aceleración por hardware y la gestión de recursos de **Zen Browser** en Linux mediante la creación de un archivo de configuración `user.js` optimizado.
 
 ### Características Principales
 * **Detección automática:** Localiza de forma precisa el directorio activo de perfiles en `~/.config/zen`[cite: 2].
