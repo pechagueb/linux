@@ -8,6 +8,7 @@
 #  |_|   |_____|____/  Script de configuración de Zen Browser para Linux
 #
 #######################################################
+# Basado en: https://github.com/Yisusdev2005/Firefox-Librewolf-Optimizer-for-Linux-distributions
 
 # Colores
 RED='\033[0;31m'
