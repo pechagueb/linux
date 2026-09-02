@@ -6,7 +6,7 @@ Script interactivo en Bash diseñado para maximizar el rendimiento, la aceleraci
 * **Detección automática:** Localiza de forma precisa el directorio activo de perfiles en `~/.config/zen`.
 * **Control interactivo:** Permite aplicar o descartar mejoras específicas mediante consultas modulares.
 * **Aceleración por hardware:** Habilita WebGPU, capas avanzadas de WebRender y decodificación de vídeo por GPU.
-* **Ajuste de CPU y hilos:** Adapta la asignación multiproceso según los hilos del procesador[cite: 2].
+* **Ajuste de CPU y hilos:** Adapta la asignación multiproceso según los hilos del procesador
 * **Gestión de códecs y caché:** Activa la decodificación VA-API y optimiza las preferencias de memoria y disco.
 * **Respaldos automáticos:** Genera una copia de seguridad segura con marca de tiempo antes de sobrescribir configuraciones previas.
 
