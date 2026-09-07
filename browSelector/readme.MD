@@ -15,7 +15,7 @@ Un selector de navegadores moderno, elegante y minimalista diseñado en **Python
 
 ---
 
-## 📂 Estructura de Archivos
+## 📂 Estructura de Archivos (ej.: ~/.local/bin/)
 
 ```text
 ~/.local/bin/
