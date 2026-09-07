@@ -27,7 +27,7 @@ Un selector de navegadores moderno, elegante y minimalista diseñado en **Python
 
 ## ⚙️ Configuración (`browsers.json`)
 
-El archivo de configuración permite definir el tiempo de espera, la opción por defecto y la lista de navegadores disponibles:
+El archivo de configuración permite definir el tiempo de espera, la opción por defecto y la lista de navegadores disponibles con la posibilidad de agregar, eliminar y modificar orden:
 
 ```json
 {
