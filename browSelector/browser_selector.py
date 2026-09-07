@@ -5,6 +5,7 @@
 #  |  __/| |___| |_) | Descripción:
 #  |_|   |_____|____/  Script de selección de navegador a ejecutar
 #
+# web: https://pechagueb.github.io/pebweb/
 ########################################################
 
 import sys
