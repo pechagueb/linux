@@ -1,0 +1,18 @@
+{
+    "timeout": 10,
+    "default_index": 0,
+    "browsers": [
+        {
+            "name": "Google Chrome",
+            "command": "/usr/bin/google-chrome-stable %U"
+        },
+        {
+            "name": "LibreWolf",
+            "command": "/usr/lib/librewolf/librewolf %u"
+        },
+        {
+            "name": "Zen Browser",
+            "command": "/opt/zen-browser-bin/zen-bin %u"
+        }
+    ]
+}
