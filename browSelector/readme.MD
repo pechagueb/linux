@@ -1,6 +1,6 @@
 # 🌐 Browser Selector (PyQt6)
 
-Un selector de navegadores moderno, elegante y minimalista diseñado en **Python (PyQt6)** con una estética de gamas de azules oscuros. Inspirado en el comportamiento clásico de un menú GRUB, permite la selección interactiva de tu navegador predeterminado con un temporizador de arranque automático.
+Un selector de navegadores moderno, elegante y minimalista diseñado en **Python (PyQt6)** con una estética de gamas de azules oscuros (modificable en script). Inspirado en el comportamiento clásico de un menú GRUB, permite la selección interactiva de tu navegador predeterminado con un temporizador de arranque automático.
 
 ---
 
