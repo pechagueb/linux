@@ -1,4 +1,4 @@
-# 💡 Daily Motivational Quotes (Notify Script)
+# 💡 notify-quotes.sh
 
 Un script en **Bash** ligero y eficiente que envía notificaciones de escritorio con frases motivacionales aleatorias desde un archivo `.txt` personalizable. 🚀
 
