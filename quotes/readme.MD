@@ -20,3 +20,5 @@ Un script en **Bash** ligero y eficiente que envía notificaciones de escritorio
 
 ---
 ¡Dale un empujón de energía a tu flujo de trabajo diario! 💻✨
+
+![imagen cheatsheet](quotes.jpg)
