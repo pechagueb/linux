@@ -16,7 +16,7 @@ Un script en **Bash** ligero y eficiente que envía notificaciones de escritorio
    chmod +x notify-quotes.sh
    ```
 2. Asegúrate de definir la ruta correcta de tu archivo de frases (`quotes.txt`) dentro del script.
-3. Ejecuta el script manualmente o agrégalo a tu **crontab** o **timer de systemd** para recibir motivación diaria. 🎯
+3. Ejecuta el script manualmente o agrégalo a tu **crontab** o **timer de systemd** para recibir motivación periódicamente. 🎯
 
 ---
 ¡Dale un empujón de energía a tu flujo de trabajo diario! 💻✨
