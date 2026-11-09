@@ -22,7 +22,7 @@ sudo apt install conky-all
 ### Ejecutar:
 conky -c ~/.config/conky/conky.conf
 
-### Inici Automático:
+### Inicio Automático:
 Para ejecutar al inicio de depende de tu distro, habitualmente en Configuración de Sistema -> Inicio automático (crear entrada y en orden a ejecutar):
 sh -c "sleep 5 && conky"
 
