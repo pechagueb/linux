@@ -12,12 +12,18 @@ personalizado ("Sabila"). Además, detalla el consumo de recursos por aplicació
 
 ## 🛠️ Instalación y Uso:
 
-Para utilizar esta configuración, simplemente guarda el archivo `conky.conf` en la carpeta `~/.config/conky/`. 
+Para utilizar esta configuración, simplemente guarda los archivos `conky.conf y draw_bg.lua` en la carpeta `~/.config/conky/`. 
 Si el directorio no existe, puedes crearlo manualmente. Una vez ubicado el archivo, reinicia Conky o inícialo 
 desde terminal con el comando:
 
+### Para instalar conky (ej.: para ubuntu y derivados):
+sudo apt install conky-all
+
 ### Ejecutar:
 conky -c ~/.config/conky/conky.conf
+
+Para ejecutar al inicio de depende de tu distro, habitualmente en Configuración de Sistema -> Inicio automático (crear entrada y en orden a ejecutar):
+sh -c "sleep 5 && conky"
 
 ¡Espero que te sea de utilidad! Si tienes sugerencias o mejoras, no dudes en hacer un fork o abrir un issue.
 
