@@ -28,4 +28,4 @@ sh -c "sleep 5 && conky"
 
 ¡Espero que te sea de utilidad! Si tienes sugerencias o mejoras, no dudes en hacer un fork o abrir un issue.
 
-![imagen](conky.png)
+![imagen](conky1.png)
