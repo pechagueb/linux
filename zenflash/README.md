@@ -37,3 +37,5 @@ Ejecuta el script directamente desde tu terminal o entorno gráfico:
 ```
 
 > ⚠️ **Precaución:** El script solicitará permisos de administrador (`pkexec`) exclusivamente en el momento de realizar la escritura para interactuar con la unidad de bloques. Asegúrate de seleccionar el pendrive correcto, ya que **todos los datos anteriores en el destino se eliminarán permanentemente**.
+
+![imagen](zenflash.jpg)
