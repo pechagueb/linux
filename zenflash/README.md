@@ -20,12 +20,7 @@ Antes de ejecutar la herramienta, asegúrate de tener instaladas las siguientes 
 
 ## 📦 Descarga e Instalación
 
-1. **Clona o descarga** el repositorio en tu directorio local de scripts (por ejemplo, `~/.local/bin/`):
-   ```bash
-   git clone https://github.com/tu-usuario/zenflash.git
-   cd zenflash
-   ```
-
+1. **Descarga** el script en tu directorio local de scripts (por ejemplo, `~/.local/bin/`):
 2. **Dale permisos de ejecución** al script principal:
    ```bash
    chmod +x zenflash.sh
