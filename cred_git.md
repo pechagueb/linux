@@ -10,7 +10,7 @@ Comprueba la configuración con:
 ```bash
 git config --global --list
 ```
-Para que en la siguiente sincronización (push) se guarde la clave:
+Para que en la siguiente sincronización (push) se guarde la clave (token):
 ```bash    
 git config --global credential.helper store
 ```
